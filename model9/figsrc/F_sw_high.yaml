@@ -1,0 +1,4 @@
+ModelParameters:
+  F_sw: 0.1           # Constant force on seaweed
+  b_sw: 1.0           # damping constant of seaweed
+

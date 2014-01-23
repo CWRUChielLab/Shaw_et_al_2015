@@ -1,0 +1,4 @@
+ModelParameters:
+  # proprioception
+  eta: 0        # Proprioceptive feedback strength
+

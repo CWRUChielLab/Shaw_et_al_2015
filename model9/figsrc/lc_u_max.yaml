@@ -1,0 +1,3 @@
+ModelParameters:
+  # scaling factors
+  u_max: 2.9         # scale factor for amount of muscle activation

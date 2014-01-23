@@ -1,0 +1,6 @@
+ModelParameters:
+  # mechanics
+  k:                # Muscle maximum force
+    - -2.9          #   ~ I2
+    - -2.9          #   ~ hinge
+    -  2.9          #   ~ I3

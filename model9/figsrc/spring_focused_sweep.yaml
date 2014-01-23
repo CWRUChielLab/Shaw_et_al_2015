@@ -1,0 +1,6 @@
+ModelParameters:
+  k_spring: [0.7306, 0.730713]       # Spring constant
+
+SimulationParameters:
+  sweepSteps: 500               # number of sample values to sweep through
+

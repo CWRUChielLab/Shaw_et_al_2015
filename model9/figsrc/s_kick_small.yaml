@@ -1,0 +1,4 @@
+ModelParameters:
+  # perturbations
+  x_kick: 0.05              # size of kick
+

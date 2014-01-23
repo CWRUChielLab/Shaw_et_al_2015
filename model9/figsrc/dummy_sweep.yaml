@@ -1,0 +1,6 @@
+SimulationParameters:
+  sweepSteps: 2               # number of sample values to sweep through
+ModelParameters:
+  # perturbations
+  t_kick: [0, 1.e-9]
+

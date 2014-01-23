@@ -1,0 +1,138 @@
+%\documentclass[11pt, oneside]{article}       % use "amsart" instead of "article" for AMSLaTeX format
+\documentclass[twocolumn]{svjour3}       % Spring article format
+\journalname{Journal of Computational Neuroscience}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+
+\usepackage{geometry}                        % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                           % ... or a4paper or a5paper or ...
+%\geometry{landscape}                        % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}            % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}                % Use pdf, png, jpg, or eps with pdflatex; use eps in DVI mode
+                                % TeX will automatically convert eps --> pdf in pdflatex
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathptmx} % times font, as per journal
+\usepackage{subfig}   % subfigure labeling (e.g., 1a)
+\usepackage{float}    % adds the "H" placement option to force the figure to be inline
+\usepackage{natbib}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{array}
+\usepackage{fixltx2e} % fix two column figure order
+%\usepackage[textsize=tiny]{todonotes}
+\usepackage[disable]{todonotes}
+
+% centered overlap used to allow the expression for the summation range (under
+% the sigma to extend under other parts of the equation.
+% from Perlis, TUGboat Vol 0, no 0, 2001
+\def\clap#1{\hbox to 0pt{\hss#1\hss}}
+\def\mathclap{\mathpalette\mathclapinternal}
+\def\mathllap{\mathpalette\mathllapinternal}
+\def\mathrlap{\mathpalette\mathrlapinternal}
+\def\mathclapinternal#1#2{\clap{$\mathsurround=0pt#1{#2}$}}
+\def\mathllapinternal#1#2{\llap{$\mathsurround=0pt#1{#2}$}}
+\def\mathrlapinternal#1#2{\rlap{$\mathsurround=0pt#1{#2}$}}
+
+\renewcommand{\topfraction}{0.9} % allow more floats to fill most of the page
+\renewcommand{\dbltopfraction}{0.9} % as above, but in 2 column mode
+
+% typing shortcuts
+
+% short author and title for top of page (Springer specific)
+
+\titlerunning{Dynamical Architecture for Adaptive Responses to Mechanical Loads}
+\authorrunning{Shaw KM, Cullins MJ, McManus JM, Lu H, Thomas PJ, Chiel HJ}
+
+\title{The Significance of Dynamical Architecture for Adaptive Responses to Mechanical Loads During Rhythmic Behavior}
+\author{
+    Kendrick M.~Shaw \and Miranda J.~Cullins \and Jeffrey M.~McManus \and Hui Lu \and Peter J.~Thomas \and Hillel J.~Chiel}
+%\date{}                            % Activate to display a given date or no date
+
+
+\newlength{\figwidth}
+\figwidth=\linewidth
+\let\ifthesis=\iffalse
+
+
+\institute{
+    Kendrick M.~Shaw \at
+    Department of Biology and Medical Scientist Training Program, Case Western Reserve University, 10900 Euclid Ave., Cleveland OH 44106, USA \\
+    \email{kendrick.shaw@case.edu}           %  \\
+    \and
+    Miranda J.~Cullins $\cdot$ Jeffrey M.~McManus $\cdot$ Hui Lu \at
+    Department of Biology, Case Western Reserve University, 10900 Euclid Ave., Cleveland OH 44106, USA
+    \and
+    Peter J.~Thomas \at
+    Departments of Mathematics, Biology and Cognitive Science, Case Western Reserve University, 10900 Euclid Ave., Cleveland OH 44106, USA \\
+    \email{peter.j.thomas@case.edu}           %  \\
+    \and
+    Hillel J.~Chiel \at
+    Departments of Biology, Neurosciences and Biomedical Engineering, Case Western Reserve University, 10900 Euclid Ave., Cleveland OH 44106, USA \\
+    \email{hjc@case.edu}           %  \\
+}
+
+\date{Received: date / Accepted: date}
+% The correct dates will be entered by the editor
+
+
+\begin{document}
+\listoftodos
+\maketitle
+
+\begin{abstract}
+Many behaviors require reliably generating sequences of motor activity while
+adapting the activity to incoming sensory information.  This process has often
+been conceptually explained as either fully dependent on sensory input (a
+chain reflex) or fully independent of sensory input (an idealized central
+pattern generator, or CPG), although the consensus of the field is that most neural
+pattern generators lie somewhere between these two extremes.  Many mathematical
+models of neural pattern generators use limit cycles to generate the sequence
+of behavior, but other models, such as a heteroclinic channel (an attracting
+chain of saddle points), have been
+suggested.  To explore the continuum between CPGs and chain reflexes, in this
+paper we describe a nominal model of feeding in
+\textit{Aplysia californica} that can be smoothly shifted between a
+generic limit cycle (where the velocity changes by less than an order of
+magnitude throughout the cycle) and a heteroclinic channel (where the velocity
+becomes small when the trajectory passes near saddle points).  We then study
+the behavior of the system in these two parameter regimes and compare the
+behavior of the models with behavior recorded in the animal \textit{in vivo}
+and \textit{in vitro}.  We show that while both pattern generators can generate
+similar behavior, the stable heteroclinic channel can better respond to
+small changes in sensory input induced by load, and that the response matches
+the changes seen when a load is added \textit{in vivo}.  We then show that
+the stable heteroclinic channel shows much more dramatic slowing of activity
+than the generic limit cycle when sensory input is reduced, and show that
+similar slowing with removal of proprioception is seen \textit{in vitro}.
+Finally, we show that the distributions of burst lengths seen \textit{in
+vivo} are better matched by the distribution expected from a stable
+heteroclinic channel than that expected from a generic limit cycle.
+These observations suggest that feeding behavior in \textit{Aplysia} may be
+better described by a model using a heteroclinic channel than a more generic
+limit cycle.
+
+\keywords{Aplysia \and heteroclinic channel \and Central Pattern Generator \and Chain reflex \and Limit cycle}
+% \PACS{PACS code1 \and PACS code2 \and more}
+% \subclass{MSC code1 \and MSC code2 \and more}
+\end{abstract}
+
+\input{ShawEmpiricalSHCPaper_body}
+
+\todo{move items in shc.bib into existing .bib files}
+%\section*{Citations to consider}
+%\begin{itemize}
+%    \item \citet{rabinovich_generation_2006}
+%    \item \citet{kirst_bifurcation_2007}
+%    \item \citet{ross_detecting_2010}
+%    \item \citet{rabinovich_robust_2011}
+%    \item \citet{woodman_building_2011}
+%    \item \citet{nowotny_pacemaker_2011}
+%    \item \citet{friston_perception_2012}
+%\end{itemize}
+
+\bibliographystyle{springer/spbasic}
+\bibliography{shc.bib,math.bib,neuroscience.bib,reliability.bib}
+
+\end{document}
+

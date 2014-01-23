@@ -1,0 +1,7 @@
+# simulate multiple trajectories with the same noise
+ModelParameters:
+  eta:   1.e-4          # Noise magnitude
+
+SimulationParameters:
+  seed: [0, 3235798765] #0xC0DE5EED  # random number seed
+  sweepSteps: 10000              # number of sample values to sweep through

@@ -1,0 +1,84 @@
+ModelParameters:
+  # intrinsic dynamics
+  alpha: 1          # Rate of growth of neural activity
+  beta:  1          # Plateau activity level = alpha / beta
+  gamma: 2.4        # Inhibition from neurons other than the previous neuron
+  delta: 0          # Inhibition from previous neuron
+  mu:    0          # Intrinsic excitation
+  eta:   0          # Noise magnitude
+
+  # scaling factors
+  tau_a: 0.05       # neural time constant
+  tau_l:            # phase-based adjustment of time constant
+    - 0             #   ~ I2
+    - 0             #   ~ hinge
+    - 0             #   ~ I3
+  u_max: 1.         # scale factor for amount of muscle activation
+
+  # proprioception
+  sigma:            # Proprioceptive feedback strength
+    - -2.e-3        #   ~ I2
+    -  2.e-3        #   ~ hinge
+    -  2.e-3        #   ~ I3
+  S:                # Null position for proprioceptive feedback
+    - 0.5           #   ~ I2
+    - 0.5           #   ~ hinge
+    - 0.25          #   ~ I3
+
+  # Muscle activation
+  tau: 2.45         # Muscle activation time constant
+
+  # mechanics
+  b_o: 0.1          # Viscous damping strength
+  k:                # Muscle maximum force
+    - -1.           #   ~ I2
+    - -1.           #   ~ hinge
+    -  1.           #   ~ I3
+  w:                # Muscle maximum effective length
+    - 2.            #   ~ I2
+    - 2.            #   ~ hinge
+    - 1.1            #   ~ I3
+  c:                # Neutral position for muscle force
+    - 1.            #   ~ I2
+    - 1.            #   ~ hinge
+    - 1.1           #   ~ I3
+  F_sw: 0.01           # Constant force on seaweed
+  b_sw: 0.10           # Damping constant for seaweed
+  #F_sw: 0.01           # Constant force on seaweed
+  #b_sw: 0.10           # Damping constant for seaweed
+
+  # perturbations
+  k_spring: 0       # Spring constant
+  x_spring: 0.9     # Neutral position for spring force
+  t_kick: 150       # Timing of impulse to the radula-odontophore
+  x_kick: 0         # Size of impulse to the radula-odontophore
+  a_kick:           # Size of impulse to neural pool
+    -  0            #   ~ I2
+    -  0            #   ~ hinge
+    -  0            #   ~ I3
+  a_reset:          # if not NaN, reset a to this value at the kick
+    -  .nan         #   ~ I2
+    -  .nan         #   ~ hinge
+    -  .nan         #   ~ I3
+
+
+SimulationParameters:
+  dt: 0.001                      # time step
+  duration: 300.                # total duration
+  seed: 3235798765 #0xC0DE5EED  # random number seed
+  minOutputInterval: 0.01       # record data at most this often
+  sweepSteps: 1000              # number of sample values to sweep through
+
+
+InitialConditions:
+  a_I2: 1.0       # I2 motor pool activity
+  a_h:  1.e-9     # hinge motor pool activity
+  a_I3: 1.e-9     # I3 motor pool activity
+  x_o:  0.5       # radula/odontophore position (0 = retracted, 1 = protracted)
+  x_sw: 0.0       # length of seaweed ingested
+  u_I2: 0.0       # I2 activation
+  u_I3: 0.0       # I3 activation
+  E_I2: 0.0       # total work done by I2
+  E_I3: 0.0       # total work done by I3
+  U_I2: 0.0       # integrated activation of I2
+  U_I3: 0.0       # integrated activation of I3

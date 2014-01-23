@@ -1,0 +1,4 @@
+ModelParameters:
+  # perturbations
+  t_kick: [150, 160]        # timing of kick
+

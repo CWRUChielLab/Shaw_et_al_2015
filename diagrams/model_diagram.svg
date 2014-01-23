@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="579.86743"
+   height="608.86615"
+   id="svg3017">
+  <defs
+     id="defs3019">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleOutS"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(0.2,0.2)"
+         id="path4493"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path4360"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path4348"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInM"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.4,-0.4)"
+         id="path4238"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.8,-0.8)"
+         id="path4235"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         id="path4120"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         id="path4102"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInMQ"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.4,-0.4)"
+         id="path5117"
+         style="fill:#a5a520;fill-rule:evenodd;stroke:#a5a520;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInMP"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.4,-0.4)"
+         id="path5574"
+         style="fill:#9c9cff;fill-rule:evenodd;stroke:#9c9cff;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInMW"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.4,-0.4)"
+         id="path6015"
+         style="fill:#dd3939;fill-rule:evenodd;stroke:#dd3939;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInMWx"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.4,-0.4)"
+         id="path6088"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleOutSI"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(0.2,0.2)"
+         id="path5234"
+         style="fill:#b7b7b7;fill-rule:evenodd;stroke:#b7b7b7;stroke-width:1pt" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata3022">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-2.5669291,-422.92909)"
+     id="layer1">
+    <image
+       xlink:href="protraction-open-muscles.png"
+       x="101.1044"
+       y="489.40991"
+       width="321.25592"
+       height="248.71428"
+       id="image3199" />
+    <text
+       x="328"
+       y="774.67786"
+       id="text3266"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="328"
+         y="774.67786"
+         id="tspan3268"
+         style="font-size:40px">∑</tspan></text>
+    <image
+       xlink:href="protraction-open-neurons.png"
+       x="162.91995"
+       y="808.7851"
+       width="206.82901"
+       height="149.57709"
+       id="image3261" />
+    <rect
+       width="47.037888"
+       height="46.537888"
+       x="320.23105"
+       y="739.09326"
+       id="rect3295"
+       style="fill:none;stroke:#000000;stroke-width:1.46210063" />
+    <path
+       d="m 274.88408,828.36218 0,-58 45.11592,0"
+       id="path3316"
+       style="fill:#000000;fill-opacity:0;stroke:#dd3939;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0" />
+    <path
+       d="m 210,891.91581 0,-137.55363 110,0"
+       id="path3318"
+       style="fill:#000000;fill-opacity:0;stroke:#dd3939;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0" />
+    <path
+       d="m 352,196.36218 -12,6.92821 -12,6.9282 0,-13.85641 0,-13.8564 12,6.9282 z"
+       transform="matrix(0.64,0,0,0.64,120.94931,492.69039)"
+       id="path3045"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       d="m 368,762.36218 136,0 0,-144 -168,0"
+       id="path3322"
+       style="fill:#000000;fill-opacity:0;stroke:#dd3939;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#TriangleInMW)" />
+    <path
+       d="m 301.8151,855.43981 242.1849,0 0,-317.07763 -184,0"
+       id="path3324"
+       style="fill:none;stroke:#a5a520;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleInMQ)" />
+    <path
+       d="m 210,946.04655 0,48.31565 m 130.73748,-42.1032 0,42.1032 -300.73748,0 0,-388.8841 102,0"
+       id="path3328"
+       style="fill:#000000;fill-opacity:0;stroke:#9c9cff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleInMP)" />
+    <text
+       x="353.32001"
+       y="495.40222"
+       id="text6134"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="353.32001"
+         y="495.40222"
+         id="tspan6136">Retraction (I3)</tspan></text>
+    <text
+       x="123.72674"
+       y="450.14124"
+       id="text6138"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="123.72674"
+         y="450.14124"
+         id="tspan6140" /></text>
+    <text
+       x="128.6803"
+       y="494.84216"
+       id="text6142"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="128.6803"
+         y="494.84216"
+         id="tspan6144">Protaction</tspan><tspan
+         x="128.6803"
+         y="534.84216"
+         id="tspan6152">(I2)</tspan></text>
+    <text
+       x="422.97345"
+       y="653.68219"
+       id="text6146"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="422.97345"
+         y="653.68219"
+         id="tspan6148">Closing</tspan><tspan
+         x="422.97345"
+         y="693.68219"
+         id="tspan6150">(I4)</tspan></text>
+    <text
+       x="370.33325"
+       y="961.92883"
+       id="text3027"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="370.33325"
+         y="961.92883"
+         id="tspan3029">a<tspan
+   id="tspan3031"
+   style="font-size:65.00091553%;baseline-shift:sub">0</tspan></tspan></text>
+    <text
+       x="158.33325"
+       y="961.92883"
+       id="text3033"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="158.33325"
+         y="961.92883"
+         id="tspan3035">a<tspan
+   id="tspan3037"
+   style="font-size:65.00091553%;baseline-shift:sub">1</tspan></tspan></text>
+    <text
+       x="303.91547"
+       y="832.76221"
+       id="text3039"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="303.91547"
+         y="832.76221"
+         id="tspan3041">a<tspan
+   id="tspan3043"
+   style="font-size:65.00091553%;baseline-shift:sub">2</tspan></tspan></text>
+    <text
+       x="1105.2058"
+       y="828.09357"
+       transform="translate(-11.935825,0.9291203)"
+       id="text3519"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"><tspan
+         x="1105.2058"
+         y="828.09357"
+         id="tspan3521" /></text>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+ModelParameters:
+  b_sw: 2.0           # Damping constant for seaweed
+

@@ -1,0 +1,7 @@
+ModelParameters:
+  # perturbations
+  a_kick:           # Size of impulse to neural pool
+    -  0            #   ~ I2
+    -  0            #   ~ hinge
+    -  1.e-6        #   ~ I3
+

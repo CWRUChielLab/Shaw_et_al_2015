@@ -1,0 +1,15 @@
+*.o
+model9
+code-generator
+yaml2tex
+yaml2xpp
+*.csv
+*.swp
+settings.h
+settings.cpp
+*.pdf
+params.tex
+figbuild/*
+fig/*
+.RData
+.Rhistory

@@ -1,0 +1,3 @@
+ModelParameters:
+  k_spring: [0, 3]       # Spring constant
+

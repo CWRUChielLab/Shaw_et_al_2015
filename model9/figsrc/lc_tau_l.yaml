@@ -1,0 +1,5 @@
+ModelParameters:
+  tau_l:            # phase-based adjustment of time constant
+    - 0.6101             #   ~ I2
+    - -0.9201             #   ~ hinge
+    - 0.276             #   ~ I3

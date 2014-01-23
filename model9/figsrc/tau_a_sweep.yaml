@@ -1,0 +1,6 @@
+ModelParameters:
+  # scaling factors
+  tau_a: [0.001, 2]           # scale factor for neural time constants
+
+SimulationParameters:
+  dt: 0.001                      # time step

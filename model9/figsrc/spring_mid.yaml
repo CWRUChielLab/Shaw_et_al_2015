@@ -1,0 +1,3 @@
+ModelParameters:
+  k_spring: 0.7       # Spring constant
+

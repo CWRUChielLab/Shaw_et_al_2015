@@ -1,0 +1,7 @@
+ModelParameters:
+  # perturbations
+  a_reset:          # if not NaN, reset a to this value at the kick
+    -  .nan         #   ~ I2
+    -  .nan         #   ~ hinge
+    -  0            #   ~ I3
+

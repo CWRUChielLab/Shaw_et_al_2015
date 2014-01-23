@@ -1,0 +1,3 @@
+ModelParameters:
+  # Intrinsic dynamics
+  mu:    1.e-3      # Intrinsic excitation

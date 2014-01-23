@@ -1,0 +1,2 @@
+ModelParameters:
+  tau_a: 0.20405       # neural time constant

@@ -1,0 +1,7 @@
+ModelParameters:
+  # proprioception
+  sigma:        # Proprioceptive feedback strength
+    - -0        #   ~ I2
+    -  0        #   ~ hinge
+    -  0        #   ~ I3
+
